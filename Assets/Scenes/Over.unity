@@ -1176,7 +1176,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 0.2
+  m_Intensity: 0.3
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -2399,7 +2399,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 927687647663317345, guid: d6953f7325d5db44b92bd78534d28efc, type: 3}
       propertyPath: m_LocalScale.y
-      value: 4.36564
+      value: 2.6774907
       objectReference: {fileID: 0}
     - target: {fileID: 927687647663317345, guid: d6953f7325d5db44b92bd78534d28efc, type: 3}
       propertyPath: m_LocalScale.z
@@ -2407,15 +2407,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 927687647663317345, guid: d6953f7325d5db44b92bd78534d28efc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.26
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 927687647663317345, guid: d6953f7325d5db44b92bd78534d28efc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.69
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 927687647663317345, guid: d6953f7325d5db44b92bd78534d28efc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.111868
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: 927687647663317345, guid: d6953f7325d5db44b92bd78534d28efc, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2456,6 +2456,26 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 927687647663317345, guid: d6953f7325d5db44b92bd78534d28efc, type: 3}
   m_PrefabInstance: {fileID: 2120549544}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2120549546 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 927687647663317373, guid: d6953f7325d5db44b92bd78534d28efc, type: 3}
+  m_PrefabInstance: {fileID: 2120549544}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2120549551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120549546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71231ce66f950ed4193d3e9960e3d8b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementVector: {x: 8, y: 0, z: 0}
+  movementFactor: 0
+  period: 2
 --- !u!1001 &2145318136
 PrefabInstance:
   m_ObjectHideFlags: 0
